@@ -1,24 +1,11 @@
-# README
+# Описание
+Учебное приложение из книги "Ruby on Rails для начинающих"
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Версии зависимостей отличаются. В оригинальной книги используется Ruby 2.2.0 и Rails 4
 
-Things you may want to cover:
+# О приложение
+Сервис публикации микропостов пользователей (аналог Twitter)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Запуск прилоежния
+`bundle install` Установка зависимостей
+`bin/rails s` Запустит локальный сервер разработки на порту `127.0.0.1:3000`
